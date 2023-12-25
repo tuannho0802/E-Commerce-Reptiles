@@ -1,0 +1,13 @@
+/* Cart Table */
+.cart-table {
+  display: flex;
+  align-items: center;
+}
+
+/* Cart Button */
+.cart-btn {
+  background-color: #76b88a;
+  border-radius: 5px;
+  transition: background-color 0.4s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2), 0 6px 12px rgba(0, 0, 0, 0.15);
+}

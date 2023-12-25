@@ -1,0 +1,135 @@
+.product-size {
+  width: 100%;
+  max-width: 400px;
+  min-height: 300px;
+  max-height: 300px;
+  display: flex;
+  object-fit: fill;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.product-size:hover {
+  transform: scale(1.05);
+}
+
+.card-container {
+  background: linear-gradient(to bottom, #893b3b, #efb65b);
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  min-height: 100%;
+  min-width: 105%;
+}
+
+.product-title {
+  display: flex;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  justify-content: center;
+  text-transform: capitalize;
+  background: linear-gradient(
+    96deg,
+    rgba(54, 199, 201, 1) 0%,
+    rgba(112, 186, 202, 1) 38%,
+    rgba(140, 194, 229, 1) 63%,
+    rgba(137, 125, 197, 1) 100%
+  );
+  padding: 5px 0;
+  transition: color 1s;
+}
+
+.product-title:hover {
+  color: #f7c1b5;
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+/* Style for links */
+a {
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+/* Hover effect for links */
+a:hover {
+  color: rgb(68, 68, 232);
+}
+
+.input-group
+  > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(
+    .valid-feedback
+  ):not(.invalid-tooltip):not(.invalid-feedback) {
+  background-color: #76b88a;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Active styles for buttons */
+.btn-check:checked + .btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check) + .btn:active {
+  color: var(--bs-btn-active-color);
+  background-color: var(--bs-btn-active-bg);
+  border-color: var(--bs-btn-active-border-color);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.btn:hover {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.btn-pagi {
+  color: var(--bs-btn-active-color);
+  background-color: rgba(114, 109, 109, 0.5);
+  border-color: var(--bs-btn-active-border-color);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: left;
+  margin-top: 20px;
+}
+
+.pagination {
+  display: flex;
+  list-style: none;
+  border-radius: 25px;
+  overflow: hidden;
+  background-color: #4b9260;
+}
+
+.page-link {
+  display: block;
+  padding: 10px 15px;
+  color: #fff;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.page-link:hover {
+  background-color: #397dc5;
+}
+
+.active > .page-link,
+.page-link.active {
+  z-index: 0;
+}
+
+/* .css-um1o6k {
+  display: none;
+} */

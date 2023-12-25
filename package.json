@@ -1,0 +1,13 @@
+{
+  "name": "comp-1682",
+  "version": "1.0.0",
+  "description": "To make it easy for you to get started with GitLab, here's a list of recommended next steps.",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd comp1682_be && npm install && cd ../comp1682_fe && npm install && npm run build",
+    "start": "node comp1682_be/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
