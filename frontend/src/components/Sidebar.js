@@ -303,7 +303,7 @@ export default function MySidebar() {
             </MenuItem>
 
             <MenuItem
-              href="https://github.com/tuannho0802/E-Commerce-Reptiles-Website"
+              href="https://github.com/tuannho0802/E-Commerce-Reptiles"
               target="_blank"
             >
               <div className="fab fa-github"></div> Source Web
