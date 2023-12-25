@@ -158,7 +158,7 @@ userRouter.post(
 
       const mailOptions = {
         from: {
-          name: "Reptiles Shop - COMP1682",
+          name: "Reptiles Shop",
         },
         to: `${user.name} <${user.email}>`,
         subject: `Reset Password`,
